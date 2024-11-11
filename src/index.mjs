@@ -28,5 +28,5 @@ const authorize = ((req, res, next) => {
 app.use('/', authorize);
 app.use('/', express.static('build'));
 
-app.listen(3000);
+app.listen(80);
 console.log(`🚀 Server ready at http://localhost:3000`);
