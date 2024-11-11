@@ -6,19 +6,13 @@
   "author": "KingShakeJS <kingshakejs@yandex.ru>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon dist/index.js",
-    "inspect": "nodemon --inspect dist/index.js",
-    "tsc": "tsc -w"
+    "start": "nodemon src/index.js",
+    "inspect": "nodemon --inspect src/index.js",
   },
   "dependencies": {
     "express": "^4.21.1"
   },
   "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.9.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.6.3",
     "nodemon": "^3.1.7"
-
   }
 }
